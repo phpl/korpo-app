@@ -1,0 +1,8 @@
+ingress:
+  enabled: true
+tcp:
+  27017: "default/korpo-app-mongodb:27017"
+controller:
+  service:
+    type: NodePort
+    externalTrafficPolicy: Local

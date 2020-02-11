@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: gateway
+
+zuul:
+  routes:
+    department:
+      path: /department/**
+    employee:
+      path: /employee/**
+    organization:
+      path: /organization/**

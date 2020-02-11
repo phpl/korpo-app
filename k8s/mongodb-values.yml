@@ -1,0 +1,6 @@
+# When updating following update also mongodb-secret.yml
+mongodbUsername: YWRtaW4=
+mongodbPassword: dGVzdA==
+
+# When updating following update also mongodb-configmap.yml
+mongodbDatabase: microservices

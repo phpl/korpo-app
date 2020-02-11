@@ -1,0 +1,8 @@
+# when updating following update also mongodb-values.yml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongodb-configmap
+data:
+  database-name: microservices
+  host-name: korpo-app-mongodb
